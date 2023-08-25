@@ -1,8 +1,17 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
+To run Click Motto locally, follow these steps:
 
-Currently, two official plugins are available:
+- Clone the repository to your local machine.
+- Install dependencies
+- Add your pexels api key in an .env.local file as VITE_API_KEY. You can use this link: https://www.pexels.com/api/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+  npm install
+```
+
+- Start the server
+
+```bash
+  npm run dev
