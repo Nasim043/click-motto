@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Workspace",
+    "imageUrl": "url(/workspace.jpg)"
+  },
+  {
+    "id": 2,
+    "name": "Summer",
+    "imageUrl": "url(/summer.jpg)"
+  },
+  {
+    "id": 3,
+    "name": "City",
+    "imageUrl": "url(/city.jpg)"
+  },
+  {
+    "id": 4,
+    "name": "Food",
+    "imageUrl": "url(/food.jpg)"
+  },
+  {
+    "id": 5,
+    "name": "Gravity",
+    "imageUrl": "url(/gravity.jpg)"
+  }
+]
