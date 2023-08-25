@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu{
+@apply px-4 cursor-pointer capitalize font-semibold hover:scale-105 duration-200;
+}

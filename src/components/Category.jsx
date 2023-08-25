@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import categories from "../../public/categoies.json";
+import categories from "../categoies.json";
 
 // Import Swiper styles
 import "swiper/css";
