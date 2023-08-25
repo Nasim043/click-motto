@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 const Category = () => {
   return (
-    <div className="max-w-7xl lg:mx-auto mx-2 sm:mx-6 md:mx-8 -mt-10 z-100 bg-white overflow-hidden">
+    <div className="max-w-7xl xl:mx-auto px-3 sm:px-4 mx-2 sm:mx-6 md:mx-8 -mt-10 md:-mt-16 mb-4 bg-white relative z-10">
       <h1 className="font-bold my-2">Top Categories</h1>
       <Swiper
         slidesPerView={1}

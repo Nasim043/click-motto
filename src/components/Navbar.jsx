@@ -18,7 +18,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-7xl">
+    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1440px]">
       <div className="flex justify-between items-center w-full h-20 px-4 top-0 left-0 z-50 lg:px-10">
         <div>
           <h1 className="text-2xl font-bold uppercase text-[#E38214]">

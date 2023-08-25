@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div
-      className="bg-cover bg-center h-72 md:h-96 text-white relative max-w-[1440px] mx-auto"
+      className="bg-cover bg-center h-80 md:h-[480px] text-white relative max-w-[1440px] mx-auto"
       style={{ backgroundImage: "url(/sunflower.jpg)" }}
     >
       <div className="absolute inset-0 bg-black opacity-40"></div>

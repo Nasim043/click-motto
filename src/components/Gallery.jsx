@@ -59,7 +59,7 @@ const Gallery = () => {
   }, [activeTab]);
 
   return (
-    <div className="max-w-7xl lg:mx-auto mx-2 sm:mx-6 md:mx-8">
+    <div className="max-w-7xl xl:mx-auto mx-2 sm:mx-6 md:mx-8 mb-14">
       <div className="sm:flex sm:justify-between mb-2">
         <div className="flex sm:gap-2 mb-2">
           <div
@@ -113,7 +113,7 @@ const Gallery = () => {
             360
           </div>
         </div>
-        <Select options={options} onChange={handleSelectChange} />
+        <Select options={options} onChange={handleSelectChange} className="w-full sm:w-44"/>
       </div>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
@@ -123,7 +123,7 @@ const Gallery = () => {
               key={item.id}
               id={item.id}
               url={item.url}
-              source={item.src.original}
+              source={item.src.medium}
             />
           ))}
         {activeTab === "Videos" &&
